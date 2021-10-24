@@ -1,0 +1,67 @@
+.navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus {
+    color: #fc9e00;
+    background-color: transparent;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #4e4848;
+    font-size: 15px;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+    color: #fc9e00;
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+    background-color: #fc9e00;
+}
+
+.navbar-nav > li > a {
+	padding-left : 30px;
+	padding-right: 30px;
+}
+
+.navbar-inverse .navbar-nav > li > a > i {
+    color: #fc9e00;
+}
+
+.customLogo{
+	width: 150px;
+    display: inline-block !important;
+    margin-right: 6px;
+}
+
+.loaderDiv{
+	width: 100%;
+    position: absolute;
+    z-index: 11;
+    text-align: center;
+    background: #80808038;
+    height: 100vh;
+}
+
+.themeBtn{
+	color: #fff;
+    background-color: #fc9e00;
+    border-color: none;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 22px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 0px;
+}
+
+
+.modal{
+	width: 90%;
+	left: 0;
+	top: 0 !important;
+	right: 0;
+	margin: 5%;
+	background: #13131300;
+    box-shadow: none;
+    border: none;
+}
+
+

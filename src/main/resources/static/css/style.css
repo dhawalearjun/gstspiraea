@@ -1,4 +1,66 @@
 /*::::: BACKGROUND OVERLAY :::::*/
+.user {margin:25px 0;}
+.user p.user-name{color:#8e909a;font-size:16px;}
+.user img{border:1px solid #383c4a;	padding:8px;width:70px; height:70px;}	
+.user .user-login{display:inline-block;}
+.user .user-login .btn {border:1px solid #343847;background-color:transparent;color:#616574;padding:4px 8px;}
+.user-login .dropdown-menu{	border:1px solid #343847;color:#616574;background-color:#2B2F3E;width:100%;margin-top:-1px;min-width:100%;border-radius:0px 0px 4px 4px;border-top:0px;}	
+.user-login .dropdown-menu li a{font-size:12px;color:#616574!important;padding:4px 8px;}
+.user-login .dropdown-menu li a:hover, .user-login .dropdown-menu li a:focus{background-color:#616574!important;color:#fff!important;}	
+.user .user-login .status-icon{font-size:6px;line-height:0px;margin-right:2px;position:relative;bottom:2px;}
+.user .user-login .status-icon.available{color:#27c7bc;}
+.user .user-login .status-icon.busy{color:#EC971F;}	
+.user .user-login .status-icon.invisibled{color:#4a4e5d;}	
+.user .user-login .status-icon.signout{	color:#FF404B;}
+
+.pixzlo-header {
+    background-color: #fff;
+}
+.pixzlo-header.header-absolute {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    z-index: 999;
+}
+.pixzlo-header .navbar-nav .nav-item {
+    list-style: none;
+}
+.pixzlo-header .header-inner .nav-link {
+    padding-top: 0;
+    padding-bottom: 0;
+    transition: unset;
+    -moz-transition: unset;
+    -webkit-transition: unset;
+    -o-transition: unset;
+    -ms-transition: unset;
+}
+.pixzlo-header .header-inner .pixzlo-main-menu > li.menu-item:first-child > .nav-link {
+    padding-left: 0;
+}
+.pixzlo-header .header-inner .pixzlo-main-menu li.menu-item.current_page_item:first-child .nav-link {
+    padding-left: 22px;
+}
+.pixzlo-header ul.dropdown-menu>li>a {
+    transition: all 0.2s ease-in-out 0s;
+    transition: all 0.2s ease-in-out 0s;
+    -moz-transition: all 0.2s ease-in-out 0s;
+    -webkit-transition: all 0.2s ease-in-out 0s;
+    -o-transition: all 0.2s ease-in-out 0s;
+    -ms-transition: all 0.2s ease-in-out 0s;
+}
+.pixzlo-header .header-inner .pixzlo-main-menu li:last-child .nav-link {
+    padding-right: 0;
+}
+.navbar ul ul.social-icons li:first-child .nav-link {
+    padding-left: 10px;
+}
+.topbar ul ul.social-icons li:last-child .nav-link,
+.logobar ul ul.social-icons li:last-child .nav-link,
+.navbar ul ul.social-icons li:last-child .nav-link {
+    margin-right: 0;
+}
+
 .piro_overlay{
 	position:fixed;
 	top:0; 
@@ -90,7 +152,7 @@
 	height:auto;
 	min-height:150px;
 }
-.piro_html .h_c_c .div_reg img{}
+
 .piro_html .h_c_r{
 	width:15px; 
 	/*background: url(new_skin_left.png) right repeat-y;*/
